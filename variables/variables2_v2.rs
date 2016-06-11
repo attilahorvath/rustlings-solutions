@@ -1,7 +1,7 @@
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x;
+    let x = 5; // This will evaluate to false, thus printing the second message
     if x == 10 {
         println!("Ten!");
     } else {
