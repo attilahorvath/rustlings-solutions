@@ -1,3 +1,9 @@
+# rustlings-solution
+
+This repo contains my solutions to [carols10cents's Rust exercises](https://github.com/carols10cents/rustlings).
+
+The original README reproduced below.
+
 # rustlings
 
 Small exercises to get you used to reading and writing Rust code. Includes practice reading and responding to
