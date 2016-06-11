@@ -3,9 +3,7 @@
 // freshly created vector from fill_vec to its caller. Scroll for hints!
 
 pub fn main() {
-    let vec0 = Vec::new();
-
-    let mut vec1 = fill_vec(vec0);
+    let mut vec1 = fill_vec();
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 
@@ -15,8 +13,8 @@ pub fn main() {
 
 }
 
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
-    let mut vec = vec;
+fn fill_vec() -> Vec<i32> {
+    let mut vec = Vec::new();
 
     vec.push(22);
     vec.push(44);
